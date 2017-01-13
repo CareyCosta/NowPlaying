@@ -227,10 +227,7 @@ figure {
 
   .movie-overview {
     display:block;
-
   }
-
-
 
   nav.footer-nav {
     width: 50%;
@@ -239,8 +236,6 @@ figure {
     padding-left: 50px;
     background-color: black;
     color: white;
-
-
   }
 
   section.about {
@@ -248,4 +243,46 @@ figure {
     position:absolute;
     right: 0px;
   }
+}
+
+@media (min-width: 992px) {
+  main {
+    display: block;
+    overflow: auto;
+    margin-left: 100px;
+  }
+
+  .movie {
+    display: inline-block;
+    width: 30%;
+  }
+
+
+  .movie:nth-child(3n+1) {
+    position: relative;
+    left: 0px;
+  }
+
+  div.movie-details {
+    margin-left: 0px;
+  }
+
+
+  .movie-details p {
+    display: none;
+  }
+
+  .movie:first-child {
+    width: 100%;
+    height:auto;
+    top: 0px;
+
+  .movie:first
+
+  }
+  }
+
+
+
+
 }
